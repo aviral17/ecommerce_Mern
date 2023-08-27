@@ -1,0 +1,30 @@
+A) npx create-react-app react-ecommerce --template redux
+
+/* ******************************************************** */
+
+B) For Tailwind, Visit TailwindCss website --> Browse Components ------> Live Preview and checkout free components 
+
+#NOTE: For Installation, visit DOCS -----> a))  npm install tailwindcss@latest NOTE: Install inside react-ecommerce folder.  [[ As we already installed React using Redux, so we simply install tailwind here ]]
+                       
+                       TIP: Visit Site ------> https://tailwindcss.com/docs/guides/create-react-app
+
+                       b)) npx tailwindcss init 
+                        c)) content: ["./src/**/*.{js,jsx,ts,tsx}",],  inside tailwind.config.js  
+
+                        d)) Copy inside `index.css` --------> 
+                        @tailwind base;
+                        @tailwind components;
+                        @tailwind utilities;
+
+                        e)) *********
+
+/* ------------------------------------------------------------------------- ***************************** ---------------------------------------------------------------- */
+
+TODO: NOTE: TIP: ---------> To use Tailwind Css Products component (of React), please do update `tailwind.config.js` accordingly as per given there in their code like `Plugins here`                        
+
+-------------------> You may get Error like --> Error: Cannot find module '@tailwindcss/aspect-ratio' , so install it via ``npm i @tailwindcss/aspect-ratio``
+
+TODO: Never forget to add dependencies inside `plugins:[]` of tailwind.config.js for every component of tailwind you adding, all things required written in tailwind component 
+  and also ##NOTE: that `npm i @tailwind....` 
+
+/* ------------------------------------------------------------------------- ***************************** ---------------------------------------------------------------- */

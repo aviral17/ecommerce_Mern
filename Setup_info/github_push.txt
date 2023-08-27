@@ -1,0 +1,7 @@
+echo "# ecommerce_Mern" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/aviral17/ecommerce_Mern.git
+git push -u origin main
