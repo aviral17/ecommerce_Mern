@@ -5,3 +5,14 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/aviral17/ecommerce_Mern.git
 git push -u origin main
+
+NOTE: TODO: ##### ####################### ############ ##############################################################
+
+Note that if You see  `--->` Sign in any github folder, Please do the following steps: 
+
+a)) In vs code, go to File -> Preferences -> Settings ---> text editor --> Files ---> under Exclude -> Remove `.git` (( This gonna remove .git folder from all the folders and place it in the ROOT folder ))  and after that DELETE it from the ROOT Folder too and now make new GitHub Repo. and do all necessary steps for pushing to github
+
+b)) STEPS:  1) git init  2) git add .  3) git commit -m "first commit" 4) git branch -M main 5) git remote add origin https://github.com/aviral17/ecommerce_Mern.git 
+              
+            6) git push -u -f origin main    (-f for force push)
+
